@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flames</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  	<script type="text/javascript" src="js/main.js"></script>
+  	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row text-center">
+			<h1 class="shadow">Flames</h1>
+		</div>
+		<div class="row text-center">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 main">
+				<h4 class="shadow">Enter your name</h4>
+				<input type="text" id="male" name="male" class="button">
+				<h4 class="shadow">Enter your Partner name</h4>
+				<input type="text" name="female" id="female" class="button"><br><br>
+				<button onclick="calculate()" class="button" style="font-size: 18px">Calculate</button>
+			</div>
+			<div class="col-lg-6 col-md-6" >
+				<center id="centerTag">
+				<h1 id="result"></h1>
+				<div id="out"></div>
+				</center>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
