@@ -3,6 +3,8 @@ window.onload = ()=>{
 function calculate(){
 let male=document.getElementById("male").value;
 let female=document.getElementById("female").value;
+male=removeSpace(male);
+female=removeSpace(female);
 for(var ii=0;ii<male.length;ii++){
 	for(var jj=0;jj<female.length;jj++){
 		if(male.charCodeAt(ii)===female.charCodeAt(jj)){
@@ -90,6 +92,17 @@ function result(a){
 		sister();
 	}
 }
+
+function removeSpace(space){
+	let tempString="";
+	for(let si=0;si<space.length;si++){
+		if(space[si]!=" "){
+			tempString+=space[si];
+		}
+	}
+	return tempString.trim();
+}
+
 function createDiv(){
 	let div=document.createElement("div");
 	div.setAttribute("id","out");
@@ -103,7 +116,7 @@ function friends(){
 	f.setAttribute("id","friends");
 	f.setAttribute("src","https://media1.giphy.com/media/uiL5Zar1BySSAk7pNk/200.gif");
 	document.getElementById("out").append(f);
-	
+	document.getElementById("male").contentEditable=true;
 }
 function love(){
 	document.getElementById("result").innerHTML = "Love";
