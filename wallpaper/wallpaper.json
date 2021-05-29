@@ -1,0 +1,14 @@
+{
+    "wallpaper":{
+        "test1":{
+            "name":"test",
+            "link":"test",
+            "category":"test1"
+        },
+        "test2":{
+            "name":"test",
+            "link":"test",
+            "category":"test2"
+        }
+    }
+}
