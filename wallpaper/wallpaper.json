@@ -9,6 +9,11 @@
             "name":"test",
             "link":"test",
             "category":"test2"
+        },
+        "test3":{
+            "name":"test",
+            "link":"test",
+            "category":"test3"
         }
     }
 }
