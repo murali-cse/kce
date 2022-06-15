@@ -1,0 +1,30 @@
+.body{
+	background-color: rgb(13, 110, 100);
+}
+.title{
+	font-family: 'Sofia';
+	color: white;
+}
+.text-center{
+	text-align: center;
+}
+.main{
+	border: 1px solid black;
+}
+.select{
+	height: 50px;
+	width: 100%;
+	font-size: 14px;
+}
+.in{
+	height:100px;
+	width: 100%;
+	font-size: 24px;
+	padding: 10px;
+}
+.shadow{
+	text-shadow: 5px 5px 10px black;
+}
+.shadow-box{
+	box-shadow: 3px 3px 10px;
+}
