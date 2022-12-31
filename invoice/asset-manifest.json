@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e6c13ad2.css",
+    "main.js": "/static/js/main.63472e53.js",
+    "static/js/787.1c9c86ce.chunk.js": "/static/js/787.1c9c86ce.chunk.js",
+    "static/media/template_2.png": "/static/media/template_2.3fa7c2b76c13dd312056.png",
+    "static/media/template_1.png": "/static/media/template_1.4528a5bd4e67ad96748c.png",
+    "static/media/qrmc_logo.svg": "/static/media/qrmc_logo.2df802bbc0afb6f923888b4625116efb.svg",
+    "index.html": "/index.html",
+    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
+    "main.63472e53.js.map": "/static/js/main.63472e53.js.map",
+    "787.1c9c86ce.chunk.js.map": "/static/js/787.1c9c86ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.63472e53.js"
+  ]
+}
